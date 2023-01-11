@@ -1,4 +1,4 @@
-# hangman-python-sqlite3
+# Hangman for Python with sqlite3
 
-
-Hangman uses a default database, to which the player can add new topics and words through the command line.
+Classic Hangman for Python CLI. 
+Play with default database or add new topics and words and make it your own!
