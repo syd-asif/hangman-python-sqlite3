@@ -3,7 +3,7 @@ import sqlite3
 
 class Hangman:
     
-    #---------------------------------------------------BEGIN INITIAL DATABASE-------------------------------------------------------
+    #---------------------------------------------------LIST DATA TO CREATE INITIAL DATABASE-----------------------------------------
 
     Celebs = ['Taylor Swift', 'Chester Bennington', 'Avicii', 'Johnny Depp', 'Arnold Schwarzenegger', 'Tom Hanks', 'Morgan Freeman',
               'Charlie Chaplin', 'Brad Pitt', 'Tom Cruise', 'Leonardo DiCaprio','Daniel Radcliffe','Emma Watson', 'Jim Carrey']
@@ -18,7 +18,7 @@ class Hangman:
               'Kabaddi', 'Rugby', 'Table Tennis', 'Ping Pong', 'Beach Volleyball', 'Volleyball', 'Hockey', 'Polo',
               'Ice Hockey', 'Swimming']
     
-    #-------------------------------------------------END INITIAL DATABASE-----------------------------------------------------------
+    #-------------------------------------------------END LIST DATA TO CREATE INITIAL DATABASE---------------------------------------
     
     connection = sqlite3.connect('Hangman.db')
     cursor = connection.cursor()
